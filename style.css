@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subtitle,
+.clock {
+    font-size: 1.4rem;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fbf08b;
+    border: none;
+    color: rgb(21, 2, 129);
+    transition: all 0.2s linear;
+}
+
+.btn:hover {
+    color: #fbf08b;
+    background-color: rgb(21, 2, 129);
+    transform: rotate(360deg);
+}
